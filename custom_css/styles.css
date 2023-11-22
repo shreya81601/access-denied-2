@@ -232,3 +232,11 @@ a img:hover {
 .navigation .right {
     display: flex;
 }
+
+#home .body-btn {
+    background-color: #d60000;
+}
+
+#home .body-btn:hover {
+    background-color:#aa2233;
+}
