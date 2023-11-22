@@ -1,0 +1,227 @@
+
+/******************************** reveal.js stuff *************************************/
+
+/* .reveal .hide-next-button .controls .navigate-right {
+    display: none;
+} */
+
+/******************************** GENERAL STUFF *************************************/
+
+.title {
+    /* display: inline-block; */
+    text-shadow: 0 0 5px #808080, 0 0 5px #808080;
+    text-shadow: 0 2px 5px #000;
+    /* color: red; */
+    color: #d60000;
+    text-decoration: line-through;
+}
+
+.maroon {
+    color: #d60000;
+}
+
+.fragment.blur {
+    filter: blur(5px);
+}
+
+.fragment.blur.visible {
+    filter: none;
+}
+
+/* .make-it-pop {
+    filter: drop-shadow(0 0 10px purple);
+    text-shadow: 0 0 10px #808080, 0 0 50px #808080;
+
+} */
+
+.source {
+    font-size: 0.5em;
+}
+
+.story-textbox {
+    background: rgba(0, 0, 0, 0.5); 
+    overflow: auto;
+    padding: 50px;
+    transform: translateY(-25px);
+}
+
+.story-textbox-2 {
+    background: rgba(0, 0, 0, 0.55);
+    overflow: auto;
+    padding: 50px;
+    transform: translateY(-25px);
+    /* border-top: 2px solid white;  */
+    width: fit-content;
+}
+
+.story-textbox-3 {
+    background: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    padding: 50px;
+    transform: translateY(-25px);
+    width: fit-content;
+}
+
+.story-textbox-4 {
+    background: rgba(0, 0, 0, 0.55);
+    overflow: auto;
+    padding: 20px;
+    transform: translateY(-25px);
+    /* border-top: 2px solid white;  */
+    /* width: fit-content; */
+}
+
+.fit-container {
+    width: fit-content;
+}
+
+.story-text {
+    font-size: 0.7em;
+}
+
+.story-text-2 {
+    font-size: 0.55em;
+}
+
+.story-text-3 {
+    font-size: 0.38em;
+    display: flex;
+    align-items: center;
+}
+
+.story-text-4 {
+    font-size: 0.5em;
+}
+
+.story-text-5 {
+    font-size: 0.4em;
+    text-align: right;
+}
+
+.small {
+    font-size: 0.9em;
+}
+
+.bigger {
+    font-size: 1.2em;
+}
+
+/* button {
+    color: red;
+} */
+
+mark {
+    color: #d60000;
+    background-color: rgba(247,188,0,0);
+}
+
+
+/************* Rectangular buttons / choice buttons **************/
+
+.button {
+    text-decoration: none;
+    /* background: black; */
+    border: none;
+    /* color: white; */
+    font-family: inherit; 
+    font-size: 0.8em;
+    padding: 20px;
+    border-radius: 10pt;
+    cursor: pointer;
+    color: black;
+    /* display: block; */
+    background-color: white;
+}
+  
+.button:hover {
+    /* background-color: #FFC000; */
+    background-color: rgba(247,188,0,1);
+    border: grey;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span.forward:after {
+    content: '>>';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 20px;
+    transition: 0.5s;
+}
+  
+.button:hover span.forward {
+    padding-right: 40px;
+}
+  
+.button:hover span.forward:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button span.back:before {
+    content: '<<';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 20px;
+    transition: 0.5s;
+}
+  
+.button:hover span.back {
+    padding-left: 40px;
+}
+  
+.button:hover span.back:before {
+    opacity: 1;
+    left: 0;
+}
+
+.broad-button {
+    /* height: 100px; */
+    width: 60%;
+    /* margin: 10px; */
+}
+
+
+/**************************** HOME BUTTON ******************************/
+
+.body-btn{
+    display: block;
+    width: 50px;
+    /* top:90%;
+    right:5%;
+    position:absolute; */
+    background-color:grey;
+    border: none;
+    color: white;
+    padding: 3px 12px; 
+    font-size: 25px; 
+    cursor: pointer; 
+    border-radius:25px;
+    margin: 5px;
+}
+
+.body-btn:hover {
+    /* background-color: #FF5733; */
+    /* background-color: #F7BC00; */
+    background-color: #d60000;
+} 
+  
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .left {
+    display: flex;
+}
+
+.navigation .right {
+    display: flex;
+}
